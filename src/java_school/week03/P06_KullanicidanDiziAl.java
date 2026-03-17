@@ -2,7 +2,7 @@ package java_school.week03;
 
 import java.util.Scanner;
 
-public class P06_KullanıcıdanDiziAl {
+public class P06_KullanicidanDiziAl {
     static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int[] sayilar=new int[5];
