@@ -1,15 +1,15 @@
-package java_school.week03;
+package java_school.week03.arrays;
 
 import java.util.Scanner;
 
-public class P06_SayiAnalizEdici {
+public class P08_SayiAnalizEdici02 {
     static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        int[] sayilar=new int[5];
+        int[] sayilar=new int[8];
         int i;
 
         for (i=0;i<sayilar.length;i++){
-            System.out.println((i+1)+".sayıyı giriniz");
+            System.out.println((i+1)+". sayıyı giriniz");
             sayilar[i]=input.nextInt();
         }
 
@@ -31,10 +31,18 @@ public class P06_SayiAnalizEdici {
             toplam+=sayilar[i];
         }
 
-        float ortalama=toplam/5;
+        int ortalama=toplam/8;
 
-        System.out.println("En büyük sayı:"+enBuyuk);
-        System.out.println("En küçük sayı:"+enKucuk);
-        System.out.println("Ortalama:"+ortalama);
+        System.out.println("En büyük sayınız:"+enBuyuk);
+        System.out.println("En küçük sayınız:"+enKucuk);
+        System.out.println("Girilen sayılarınız ortalaması:"+ortalama);
+
+        System.out.println("--Ortalamadan Büyük Sayılar--");
+
+        for (i=0;i<sayilar.length;i++){
+            if (sayilar[i]>ortalama){
+                System.out.println(sayilar[i]);
+            }
+        }
     }
 }

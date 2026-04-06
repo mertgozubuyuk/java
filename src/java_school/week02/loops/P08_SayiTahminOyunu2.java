@@ -1,11 +1,13 @@
-package java_school.week02;
+package java_school.week02.loops;
 
+import java.util.Random;
 import java.util.Scanner;
 
-public class P07_SayiTahminOyunu {
+public class P08_SayiTahminOyunu2 {
     static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        int tutulanSayi=50;
+        Random rastgele=new Random();
+        int tutulanSayi=rastgele.nextInt(100)+1;
         int tahmin;
         int hak=5;
         int deneme=0;
@@ -29,6 +31,8 @@ public class P07_SayiTahminOyunu {
                 System.out.println(hak+ " hakkınız kaldı\n");
             }
         }
+        System.out.println("Tutulan sayi "+tutulanSayi);
         System.out.println("Oyun bitti.Programdan çıkılıyor...");
+
     }
 }

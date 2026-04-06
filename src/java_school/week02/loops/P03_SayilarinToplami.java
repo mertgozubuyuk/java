@@ -1,4 +1,4 @@
-package java_school.week02;
+package java_school.week02.loops;
 
 import java.util.Scanner;
 

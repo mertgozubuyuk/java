@@ -1,4 +1,4 @@
-package java_school.week01;
+package java_school.week01.basics;
 
 import  java.util.Scanner;
 

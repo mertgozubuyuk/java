@@ -1,4 +1,4 @@
-package java_school.week03;
+package java_school.week03.arrays;
 
 public class P01_DizilereGiris {
 

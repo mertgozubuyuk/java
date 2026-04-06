@@ -1,4 +1,4 @@
-package java_school.week01;
+package java_school.week01.basics;
 
 public class P04_KarsilastirmaOperatorleri {
     public  static void main(String[] args) {

@@ -1,4 +1,4 @@
-package java_school.week03;
+package java_school.week03.arrays;
 
 public class P02_DiziElemanToplama {
     static void main(String[] args) {

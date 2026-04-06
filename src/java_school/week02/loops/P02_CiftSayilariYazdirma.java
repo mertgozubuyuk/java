@@ -1,4 +1,4 @@
-package java_school.week02;
+package java_school.week02.loops;
 
 public class P02_CiftSayilariYazdirma {
     static void main(String[] args) {

@@ -1,4 +1,4 @@
-package java_school.week01;
+package java_school.week01.basics;
 
 public class P02_VeriTipleri {
     public static void main(String[] args) {

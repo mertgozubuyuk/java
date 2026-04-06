@@ -1,4 +1,4 @@
-package java_school.week02;
+package java_school.week02.loops;
 
 public class P01_DonguleriTanima {
     static void main(String[] args) {
